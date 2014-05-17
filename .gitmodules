@@ -28,3 +28,6 @@
 [submodule "screen"]
 	path = screen
 	url = https://github.com/Regal-Internet-Brothers/screen.git
+[submodule "retrostrings"]
+	path = retrostrings
+	url = https://github.com/Regal-Internet-Brothers/retrostrings.git
