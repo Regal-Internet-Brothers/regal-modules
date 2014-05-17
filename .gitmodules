@@ -31,3 +31,6 @@
 [submodule "retrostrings"]
 	path = retrostrings
 	url = https://github.com/Regal-Internet-Brothers/retrostrings.git
+[submodule "regalnet"]
+	path = regalnet
+	url = https://ImmutableOctet@bitbucket.org/ImmutableOctet/regalnet.git
