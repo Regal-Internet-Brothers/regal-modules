@@ -40,3 +40,6 @@
 [submodule "mojoemulator"]
 	path = mojoemulator
 	url = https://github.com/Regal-Internet-Brothers/mojoemulator.git
+[submodule "ioelement"]
+	path = ioelement
+	url = https://github.com/Regal-Internet-Brothers/ioelement.git
