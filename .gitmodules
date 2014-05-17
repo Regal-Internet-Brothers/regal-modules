@@ -16,3 +16,6 @@
 [submodule "eternity"]
 	path = eternity
 	url = https://github.com/Regal-Internet-Brothers/eternity.git
+[submodule "deltatime"]
+	path = deltatime
+	url = https://github.com/Regal-Internet-Brothers/deltatime.git
