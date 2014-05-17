@@ -25,3 +25,6 @@
 [submodule "sizeof"]
 	path = sizeof
 	url = https://github.com/Regal-Internet-Brothers/sizeof.git
+[submodule "screen"]
+	path = screen
+	url = https://github.com/Regal-Internet-Brothers/screen.git
