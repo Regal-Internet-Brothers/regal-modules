@@ -7,3 +7,6 @@
 [submodule "imagedemensions"]
 	path = imagedemensions
 	url = https://github.com/Regal-Internet-Brothers/imagedemensions.git
+[submodule "queue"]
+	path = queue
+	url = ./queue
