@@ -19,3 +19,6 @@
 [submodule "deltatime"]
 	path = deltatime
 	url = https://github.com/Regal-Internet-Brothers/deltatime.git
+[submodule "stringutil"]
+	path = stringutil
+	url = https://github.com/Regal-Internet-Brothers/stringutil.git
