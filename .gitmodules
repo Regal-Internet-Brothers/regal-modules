@@ -10,3 +10,6 @@
 [submodule "vector"]
 	path = vector
 	url = https://github.com/Regal-Internet-Brothers/vector.git
+[submodule "time"]
+	path = time
+	url = https://github.com/Regal-Internet-Brothers/time.git
