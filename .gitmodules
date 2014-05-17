@@ -22,3 +22,6 @@
 [submodule "stringutil"]
 	path = stringutil
 	url = https://github.com/Regal-Internet-Brothers/stringutil.git
+[submodule "sizeof"]
+	path = sizeof
+	url = https://github.com/Regal-Internet-Brothers/sizeof.git
