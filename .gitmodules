@@ -13,3 +13,6 @@
 [submodule "time"]
 	path = time
 	url = https://github.com/Regal-Internet-Brothers/time.git
+[submodule "eternity"]
+	path = eternity
+	url = https://github.com/Regal-Internet-Brothers/eternity.git
