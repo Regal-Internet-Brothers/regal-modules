@@ -1,0 +1,9 @@
+[submodule "util"]
+	path = util
+	url = https://github.com/Regal-Internet-Brothers/util.git
+[submodule "byteorder"]
+	path = byteorder
+	url = https://github.com/Regal-Internet-Brothers/byteorder.git
+[submodule "imagedemensions"]
+	path = imagedemensions
+	url = https://github.com/Regal-Internet-Brothers/imagedemensions.git
