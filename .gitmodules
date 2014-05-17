@@ -37,3 +37,6 @@
 [submodule "preprocessor"]
 	path = preprocessor
 	url = https://github.com/Regal-Internet-Brothers/preprocessor.git
+[submodule "mojoemulator"]
+	path = mojoemulator
+	url = https://github.com/Regal-Internet-Brothers/mojoemulator.git
