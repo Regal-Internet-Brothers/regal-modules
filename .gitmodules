@@ -46,3 +46,6 @@
 [submodule "autostream"]
 	path = autostream
 	url = https://github.com/Regal-Internet-Brothers/autostream.git
+[submodule "publicdatastream"]
+	path = publicdatastream
+	url = https://github.com/Regal-Internet-Brothers/publicdatastream.git
