@@ -43,3 +43,6 @@
 [submodule "ioelement"]
 	path = ioelement
 	url = https://github.com/Regal-Internet-Brothers/ioelement.git
+[submodule "autostream"]
+	path = autostream
+	url = https://github.com/Regal-Internet-Brothers/autostream.git
