@@ -52,3 +52,6 @@
 [submodule "imagedimensions"]
 	path = imagedimensions
 	url = https://github.com/Regal-Internet-Brothers/imagedimensions.git
+[submodule "hash"]
+	path = hash
+	url = https://github.com/Regal-Internet-Brothers/hash
