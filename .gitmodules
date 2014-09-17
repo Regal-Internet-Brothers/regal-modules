@@ -55,3 +55,6 @@
 [submodule "hash"]
 	path = hash
 	url = https://github.com/Regal-Internet-Brothers/hash
+[submodule "autofit"]
+	path = autofit
+	url = https://github.com/Regal-Internet-Brothers/autofit.git
