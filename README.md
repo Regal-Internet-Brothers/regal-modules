@@ -25,6 +25,6 @@ For this reason, I will likely not adopt exact source code from pull requests.
 
 ***All of my public source code is either going to be used, or is currently in use in commercial or private applications.***
 
-*If you see one of my modules using types you may not think existed in Monkey, [you may want to read this](https://github.com/Regal-Internet-Brothers/typetool).*
+**If you see one of my modules using types you may not think existed in Monkey, [you might want to read this](https://github.com/Regal-Internet-Brothers/typetool/blob/master/README.md).**
 
 **This repository was released on May 17th, 2014, and was released [alongside this forum post](http://www.monkey-x.com/Community/posts.php?topic=8506&post=93769).**
