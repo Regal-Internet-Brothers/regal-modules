@@ -1,7 +1,7 @@
 modules
 =======
 
-**This repository contains all of the (Public) modules I've written in Monkey which I have deemed stable. These modules have been properly integrated into my projects. (In these modules or otherwise)**
+**This repository contains all of the (Public) modules I've written in [Monkey](https://github.com/blitz-research/monkey) which I have deemed stable. These modules have been properly integrated into my projects. (In these modules or otherwise)**
 **This repository contains the (Public) modules of mine that I've deemed stable, not necessarily all of my public modules.**
 
 ***All functionality is 'as-is', so some things may not work as expected. That being said, I actively use these modules, so if a module makes it here, I've deemed it suitable for public use. (For the most part, you shouldn't have any issues)***
