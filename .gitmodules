@@ -61,3 +61,6 @@
 [submodule "boxutil"]
 	path = boxutil
 	url = https://github.com/Regal-Internet-Brothers/boxutil.git
+[submodule "typetool"]
+	path = typetool
+	url = https://github.com/Regal-Internet-Brothers/typetool.git
