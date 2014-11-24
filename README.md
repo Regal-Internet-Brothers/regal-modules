@@ -6,6 +6,8 @@ modules
 
 ***All functionality is 'as-is', so some things may not work as expected. That being said, I actively use these modules, so if a module makes it here, I've deemed it suitable for public use. (For the most part, you shouldn't have any issues)***
 
+Modules support varying versions of Monkey, and do not explicitly state support. Generally, if your version is an experimental version that's been out for around a week, and/or is the latest major version, it's supported. If your version is older than about a month old, then it's not supported directly, but will likely still work. As of late November 2014, I will be moving these modules over to the new preprocessor scheme *slowly* (Varying rates; pretty much when I find time to work on them).
+
 The current work-flow for the release of these modules is to create a seemingly stable version, create a trial repository, then eventually get the module stable enough to be adopted into this repository.
 
 Some of my modules aren't hosted on GitHub, those modules could be in several places, but they're most likely on BitBucket: https://bitbucket.org/ImmutableOctet
