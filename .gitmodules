@@ -64,3 +64,6 @@
 [submodule "typetool"]
 	path = typetool
 	url = https://github.com/Regal-Internet-Brothers/typetool.git
+[submodule "inputmanager"]
+	path = inputmanager
+	url = https://github.com/Regal-Internet-Brothers/inputmanager.git
