@@ -67,3 +67,6 @@
 [submodule "inputmanager"]
 	path = inputmanager
 	url = https://github.com/Regal-Internet-Brothers/inputmanager.git
+[submodule "argumentloader"]
+	path = argumentloader
+	url = https://github.com/Regal-Internet-Brothers/argumentloader.git
