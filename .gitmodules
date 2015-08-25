@@ -70,3 +70,12 @@
 [submodule "imageencoder"]
 	path = imageencoder
 	url = https://github.com/Regal-Internet-Brothers/imageencoder.git
+[submodule "matrix2d"]
+	path = matrix2d
+	url = https://github.com/Regal-Internet-Brothers/matrix2d.git
+[submodule "polygon"]
+	path = polygon
+	url = https://github.com/Regal-Internet-Brothers/polygon.git
+[submodule "resources"]
+	path = resources
+	url = https://github.com/Regal-Internet-Brothers/resources.git
