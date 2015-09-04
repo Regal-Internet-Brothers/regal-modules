@@ -3,21 +3,21 @@ modules
 
 This repository contains the *stable* public modules I've written in [Monkey](https://github.com/blitz-research/monkey). Any of my public modules that are not found in this repository are considered experimental or otherwise separate.
 
-All functionality is *'as-is'*, some things may not work as expected. That being said, I personally use these many of these modules, so if a module makes it here, I've deemed it suitable for real-world use.
+All functionality is *'as-is'*, some things may not work as expected. That being said, I personally use many of these modules, so if a module makes it here, I've deemed it suitable for real-world use.
 
 ## Installation
-On git versions 1.6.5 and newer, you may do this from a command-line:
+On git versions 1.6.5 and newer, you may do the following from a command-line:
 > git clone --recursive https://github.com/Regal-Internet-Brothers/modules.git
 
 **The exact *URI* depends on your protocol preference, view the side-bar for details.**
 
-For earlier versions, use this from a command-line:
+For earlier versions, do the following:
 * Clone/download this repository.
 * Execute the "Update_Submodule_List.bat" file.
 
 Once you've downloaded this repository properly, place it in whatever directory you like.
 
-From there, you have two choices, either use these modules as formal modules, or use them as a sub-module.
+From there, you have two choices, either use these modules as formal modules, or use them as sub-modules.
 
 To use these formally (As globally accessible modules), edit your platform's configuration file in your [Monkey installation's "bin" folder](https://github.com/blitz-research/monkey/tree/develop/bin). You'll want to edit your 'MODPATH' variable, adding a **;** (Semi-colon), then the directory you chose for these modules.
 
@@ -37,7 +37,7 @@ I'm an advocate of open software, but some things aren't in good enough conditio
 
 ### Design Practices
 
-The modules available here were written with a specific design and work-flow. I will not accept pull requests that do not attempt to adhere to my writing and design practices. I will, however, take pull requests at face value, modifying submissions as needed. That being said, these are not *community-driven modules*, they're **open source modules**. Pull requests are welcome, but are not always accepted without further integration.
+The modules available here were written with a specific design and work-flow. I will not accept pull requests that do not attempt to follow my design practices. I will, however, take pull requests at face value, modifying submissions as needed. That being said, these are not *community-driven modules*, they're **open source modules**. Pull requests are welcome, but are not always accepted without further modification.
 
 ### Other
 
