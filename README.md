@@ -1,31 +1,47 @@
 modules
 =======
 
-**This repository contains all of the (Public) modules I've written in [Monkey](https://github.com/blitz-research/monkey) which I have deemed stable. These modules have been properly integrated into my projects. (In these modules or otherwise)**
-**This repository contains the (Public) modules of mine that I've deemed stable, not necessarily all of my public modules.**
+This repository contains the *stable* public modules I've written in [Monkey](https://github.com/blitz-research/monkey). Any of my public modules that are not found in this repository are considered experimental or otherwise separate.
 
-***All functionality is 'as-is', so some things may not work as expected. That being said, I actively use these modules, so if a module makes it here, I've deemed it suitable for public use. (For the most part, you shouldn't have any issues)***
+All functionality is *'as-is'*, some things may not work as expected. That being said, I personally use these many of these modules, so if a module makes it here, I've deemed it suitable for real-world use.
 
-Modules support varying versions of Monkey, and do not explicitly state support. Generally, if your version is an experimental version that's been out for around a week, and/or is the latest major version, it's supported. If your version is older than about a month old, then it's not supported directly, but will likely still work. As of late November 2014, I will be moving these modules over to the new preprocessor scheme *slowly* (Varying rates; pretty much when I find time to work on them).
+## Installation
+On git versions 1.6.5 and newer, you may do this from the command-line:
+> git clone --recursive https://github.com/Regal-Internet-Brothers/modules.git
 
-The current work-flow for the release of these modules is to create a seemingly stable version, create a trial repository, then eventually get the module stable enough to be adopted into this repository.
+**The exact *URI* depends on your protocol preference, view the side-bar for details.**
 
-Some of my modules aren't hosted on GitHub, those modules could be in several places, but they're most likely on BitBucket: https://bitbucket.org/ImmutableOctet
+For earlier versions, use this from the command-line:
+* Clone/download this repository.
+* Execute the "Update_Submodule_List.bat" file.
+
+Once you've downloaded the repository properly, place it in whatever directory you like.
+
+From there, you have two choices, either use these modules as formal modules, or use them as a sub-module.
+
+To use these formally (As globally accessible modules), edit your platform's configuration file in your [Monkey installation's "bin" folder](https://github.com/blitz-research/monkey/tree/develop/bin). You'll want to edit your 'MODPATH' variable, adding a **;** (Semi-colon), then the directory you chose for these modules.
+
+### Notes
+
+These modules support varying minimum versions of Monkey, and do not explicitly state support. Generally, if your version is an experimental version that's been out for around a week, and/or is the latest major version, it's supported. If your version is older than about a month old, then it's not supported directly, but will likely still work.
+
+The current work-flow for the release of these modules is to create an experimental/trial repository, then eventually get the module stable enough to be adopted into this repository.
+
+Some of my older module aren't hosted on GitHub, those modules could be in several places, but they're most likely on [BitBucket](https://bitbucket.org/ImmutableOctet).
+
+## Source Control Disclaimer
 
 A bit of clarification on my intents by releasing my source code:
 
-I have written a number of modules for private use. These modules may never see the light of day publicly, however, these modules will NOT be a requirement to use the modules in this repository. (Though, they may act as optional extensions to these modules)
-I'm generally one for the "Open Source" mindset, but some things aren't in good enough condition to release. But, what I do release is done with the understanding that the source is released for the sake of education, redistribution, as well as modification under other circumstances.
-Code available here is written with a specific design and work-flow. I will not accept pull requests which do not adhere to my standards of conduct. I will, however, take pull requests as a basis for a change I'll manage myself.
-I write code I find standard and in some ways elegant, and I will not have inconsistency without valid reason. I am open to the modification, redistribution, and analysis of my software, however, these are not community-driven modules, they're "Open Source" modules.
-Any pull requests made about these modules should act as rough drafts, not final source code. *If I agree with a change, I will refactor the code in the pull request as I see fit.*
+I originally wrote a number of these modules private/internal use. Some of my module have not been / will not be released. These modules will NOT be required to use the modules in this repository. However, they may be optionally available as extensions to my public modules.
 
-I personally don't believe in portions of public projects being maintained by multiple people. I only think this would work in isolated/abstracted situations such as individually developed modules (Each with their own creator).
-For this reason, I will likely not adopt exact source code from pull requests.
+I'm an advocate of open software, but some things aren't in good enough condition to release. But, what I do release is provided as-is, and may be redistributed or modification with no implied warranty, or commitment. Credit would be appreciated, but is not required. Licenses are supplied on a per-module basis, however the standard license used is the [MIT license](https://en.wikipedia.org/wiki/MIT_License).
 
-*Basically all of my public source code is released under the MIT license, so you can do with it as you please.*
+### Design Practices
 
-***All of my public source code is either going to be used, or is currently in use in commercial or private applications.***
+The modules available here were written with a specific design and work-flow. I will not accept pull requests that do not attempt to adhere to my writing and design styles. I will, however, take pull requests at face value, modifying submissions as needed. That being said, these are not community-driven modules, they're open source modules. Pull requests are welcome, but are not always accepted without further integration.
+
+### Other
 
 **If you see one of my modules using types you may not think existed in Monkey, [you might want to read this](https://github.com/Regal-Internet-Brothers/typetool/blob/master/README.md).**
 
