@@ -79,3 +79,6 @@
 [submodule "resources"]
 	path = resources
 	url = https://github.com/Regal-Internet-Brothers/resources.git
+[submodule "ioutil"]
+	path = ioutil
+	url = https://github.com/Regal-Internet-Brothers/ioutil
