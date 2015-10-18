@@ -79,3 +79,6 @@
 [submodule "ioutil"]
 	path = ioutil
 	url = https://github.com/Regal-Internet-Brothers/ioutil
+[submodule "networking"]
+	path = networking
+	url = https://github.com/Regal-Internet-Brothers/networking
