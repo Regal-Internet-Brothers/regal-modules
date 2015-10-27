@@ -1,7 +1,7 @@
 modules
 =======
 
-This repository contains the *stable* public modules I've written in [Monkey](https://github.com/blitz-research/monkey). Any of my public modules that are not found in this repository are considered experimental or otherwise separate.
+This repository contains the *stable* public modules written by The Regal Internet Brothers in [Monkey](https://github.com/blitz-research/monkey). Any of our public modules that are not found in this repository are considered experimental or otherwise separate. That being said, they belong in the same parent directory when used.
 
 All functionality is *'as-is'*, some things may not work as expected. That being said, I personally use many of these modules, so if a module makes it here, I've deemed it suitable for real-world use.
 
@@ -11,15 +11,9 @@ On git versions 1.6.5 and newer, you may do the following from a command-line:
 
 **The exact *URI* depends on your protocol preference, view the side-bar for details.**
 
-For earlier versions, do the following:
-* Clone/download this repository.
-* Execute the "Update_Submodule_List.bat" file.
+Once you've downloaded this repository properly, there's a few ways to handle module placement. Either create a sub-folder in one of your global "modules" folders, or create a sub-folder for your project. **As of 10/27/2015, this sub-folder must be named "regal".** These modules now assume the parent-directory "**regal**". For legacy support, you can add the "regal" folder, then add that as a global module directory as well.
 
-Once you've downloaded this repository properly, place it in whatever directory you like.
-
-From there, you have two choices, either use these modules as formal modules, or use them as sub-modules.
-
-To use these formally (As globally accessible modules), edit your platform's configuration file in your [Monkey installation's "bin" folder](https://github.com/blitz-research/monkey/tree/develop/bin). You'll want to edit your 'MODPATH' variable, adding a **;** (Semi-colon), then the directory you chose for these modules.
+To modify you module-path formally, edit your platform's configuration file in your [Monkey installation's "bin" folder](https://github.com/blitz-research/monkey/tree/develop/bin). You'll want to edit your 'MODPATH' variable, adding a **;** (Semi-colon), then the directory huosing these modules. For legacy support, you may also add the main "regal" directory, but for further support, this should not be assumed behavior.
 
 ### Notes
 
@@ -27,7 +21,7 @@ These modules support varying minimum versions of Monkey, and do not explicitly 
 
 The current work-flow for the release of these modules is to create an experimental/trial repository, then eventually get the module stable enough to be adopted into this repository.
 
-I originally wrote a number of these modules for private/internal use. Some of my modules have not been released. These modules will NOT be required to use the modules in this repository. However, they may be optionally available as extensions to my public modules.
+I originally wrote a number of these modules for private/internal use. Some of my modules have not been released. These modules will NOT be required to use the modules in this repository. However, they may be optionally available as extensions to my public modules. When using them, place them in the same master directory ("regal").
 
 ## Source Control Disclaimer
 
