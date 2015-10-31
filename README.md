@@ -1,4 +1,4 @@
-modules
+regal-modules
 =======
 
 This repository contains the *stable* public modules written by The Regal Internet Brothers in [Monkey](https://github.com/blitz-research/monkey). Any of our public modules that are not found in this repository are considered experimental or otherwise separate. That being said, they belong in the same parent directory when used.
@@ -7,7 +7,7 @@ All functionality is *'as-is'*, some things may not work as expected. That being
 
 ## Installation
 On git versions 1.6.5 and newer, you may do the following from a command-line:
-> git clone --recursive https://github.com/Regal-Internet-Brothers/modules.git
+> git clone --recursive https://github.com/Regal-Internet-Brothers/regal-modules.git
 
 **The exact *URI* depends on your protocol preference, view the side-bar for details.**
 
