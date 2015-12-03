@@ -13,7 +13,7 @@ On git versions 1.6.5 and newer, you may do the following from a command-line:
 
 Once you've downloaded this repository properly, there's a few ways to handle module placement. Either create a sub-folder in one of your global "modules" folders, or create a sub-folder for your project. **As of 10/27/2015, this sub-folder must be named "regal".** These modules now assume the parent-directory "**regal**". For legacy support, you can add the "regal" folder, then add that as a global module directory as well.
 
-To modify your module-path formally, edit your platform's configuration file in your [Monkey installation's "bin" folder](https://github.com/blitz-research/monkey/tree/develop/bin). You'll want to edit your 'MODPATH' variable, adding a **;** (Semi-colon), then the directory huosing these modules. For legacy support, you may also add the main "regal" directory, but for future support, please use the proper module prefix.
+To modify your module-path formally, edit your platform's configuration file in your [Monkey installation's "bin" folder](https://github.com/blitz-research/monkey/tree/develop/bin). You'll want to edit your 'MODPATH' variable, adding a **;** (Semi-colon), then the (*Parent*) directory housing these modules. For legacy support, you may also add the main "regal" directory, but for future support, please use the proper module prefix.
 
 ### Notes
 
