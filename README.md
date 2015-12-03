@@ -9,7 +9,7 @@ All functionality is *'as-is'*, some things may not work as expected. That being
 On git versions 1.6.5 and newer, you may do the following from a command-line:
 > git clone --recursive https://github.com/Regal-Internet-Brothers/regal-modules.git
 
-**The exact *URI* depends on your protocol preference, view the side-bar for details.**
+**The exact *URI* depends on your protocol preference, view the download-area above for details.** **(***HTTPS / SSH***)**
 
 Once you've downloaded this repository properly, there's a few ways to handle module placement. Either create a sub-folder in one of your global "modules" folders, or create a sub-folder for your project. **As of 10/27/2015, this sub-folder must be named "regal".** These modules now assume the parent-directory "**regal**". For legacy support, you can add the "regal" folder, then add that as a global module directory as well.
 
