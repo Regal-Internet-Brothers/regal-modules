@@ -1,37 +1,47 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-
+    <title>The Regal Modules by Regal-Internet-Brothers</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-    <title>Modules by Regal-Internet-Brothers</title>
   </head>
-
   <body>
-    <header>
-      <div class="inner">
-        <h1>Modules</h1>
-        <h2>A repository containing the official Monkey modules developed by the Regal Internet Brothers.</h2>
-        <a href="https://github.com/Regal-Internet-Brothers/regal-modules" class="button"><small>View project on</small> GitHub</a>
-      </div>
-    </header>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/Regal-Internet-Brothers/regal-modules">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/Regal-Internet-Brothers/regal-modules/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/Regal-Internet-Brothers/regal-modules/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          <h1>
-<a id="modules" class="anchor" href="#modules" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>modules</h1>
+    <div class="wrapper">
 
-<p>This repository contains the <em>stable</em> public modules I've written in <a href="https://github.com/blitz-research/monkey">Monkey</a>. Any of my public modules that are not found in this repository are considered experimental or otherwise separate.</p>
+      <section>
+        <div id="title">
+          <h1>The Regal Modules</h1>
+          <p>A collection of open source modules developed by the Regal Internet Brothers.</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/Regal-Internet-Brothers">Regal-Internet-Brothers</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h1>
+<a id="regal-modules" class="anchor" href="#regal-modules" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>regal-modules</h1>
+
+<p>This repository contains the <em>stable</em> public modules written by The Regal Internet Brothers in <a href="https://github.com/blitz-research/monkey">Monkey</a>. Any of our public modules that are not found in this repository are considered experimental or otherwise separate. That being said, they belong in the same parent directory when used.</p>
 
 <p>All functionality is <em>'as-is'</em>, some things may not work as expected. That being said, I personally use many of these modules, so if a module makes it here, I've deemed it suitable for real-world use.</p>
 
@@ -41,23 +51,14 @@
 <p>On git versions 1.6.5 and newer, you may do the following from a command-line:</p>
 
 <blockquote>
-<p>git clone --recursive <a href="https://github.com/Regal-Internet-Brothers/modules.git">https://github.com/Regal-Internet-Brothers/modules.git</a></p>
+<p>git clone --recursive <a href="https://github.com/Regal-Internet-Brothers/regal-modules.git">https://github.com/Regal-Internet-Brothers/regal-modules.git</a></p>
 </blockquote>
 
-<p><strong>The exact <em>URI</em> depends on your protocol preference, view the side-bar for details.</strong></p>
+<p><strong>The exact <em>URI</em> depends on your protocol preference, view the download-area above for details.</strong> <strong>(</strong><em>HTTPS / SSH</em><strong>)</strong></p>
 
-<p>For earlier versions, do the following:</p>
+<p>Once you've downloaded this repository properly, there's a few ways to handle module placement. Either create a sub-folder in one of your global "modules" folders, or create a sub-folder for your project. <strong>As of 10/27/2015, this sub-folder must be named "regal".</strong> These modules now assume the parent-directory "<strong>regal</strong>". For legacy support, you can add the "regal" folder, then add that as a global module directory as well.</p>
 
-<ul>
-<li>Clone/download this repository.</li>
-<li>Execute the "Update_Submodule_List.bat" file.</li>
-</ul>
-
-<p>Once you've downloaded this repository properly, place it in whatever directory you like.</p>
-
-<p>From there, you have two choices, either use these modules as formal modules, or use them as sub-modules.</p>
-
-<p>To use these formally (As globally accessible modules), edit your platform's configuration file in your <a href="https://github.com/blitz-research/monkey/tree/develop/bin">Monkey installation's "bin" folder</a>. You'll want to edit your 'MODPATH' variable, adding a <strong>;</strong> (Semi-colon), then the directory you chose for these modules.</p>
+<p>To modify your module-path formally, edit your platform's configuration file in your <a href="https://github.com/blitz-research/monkey/tree/develop/bin">Monkey installation's "bin" folder</a>. You'll want to edit your 'MODPATH' variable, adding a <strong>;</strong> (Semi-colon), then the (<em>Parent</em>) directory housing these modules. For legacy support, you may also add the main "regal" directory, but for future support, please use the proper module prefix.</p>
 
 <h3>
 <a id="notes" class="anchor" href="#notes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Notes</h3>
@@ -66,7 +67,7 @@
 
 <p>The current work-flow for the release of these modules is to create an experimental/trial repository, then eventually get the module stable enough to be adopted into this repository.</p>
 
-<p>I originally wrote a number of these modules for private/internal use. Some of my modules have not been released. These modules will NOT be required to use the modules in this repository. However, they may be optionally available as extensions to my public modules.</p>
+<p>I originally wrote a number of these modules for private/internal use. Some of my modules have not been released. These modules will NOT be required to use the modules in this repository. However, they may be optionally available as extensions to my public modules. When using them, place them in the same master directory ("regal").</p>
 
 <h2>
 <a id="source-control-disclaimer" class="anchor" href="#source-control-disclaimer" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Source Control Disclaimer</h2>
@@ -86,25 +87,10 @@
 <p><strong>If you see one of my modules using types you may not think existed in Monkey, <a href="https://github.com/Regal-Internet-Brothers/typetool/blob/master/README.md">you might want to read this</a>.</strong>
 <strong>Some of my older modules aren't hosted on GitHub, those modules could be in several places, but they're most likely on <a href="https://bitbucket.org/ImmutableOctet">BitBucket</a>.</strong>
 <strong>This repository was released on May 17th, 2014, and was released <a href="http://www.monkey-x.com/Community/posts.php?topic=8506&amp;post=93769">alongside this forum post</a>.</strong></p>
-        </section>
+      </section>
 
-        <aside id="sidebar">
-          <a href="https://github.com/Regal-Internet-Brothers/regal-modules/zipball/master" class="button">
-            <small>Download</small>
-            .zip file
-          </a>
-          <a href="https://github.com/Regal-Internet-Brothers/regal-modules/tarball/master" class="button">
-            <small>Download</small>
-            .tar.gz file
-          </a>
-
-          <p class="repo-owner"><a href="https://github.com/Regal-Internet-Brothers/regal-modules"></a> is maintained by <a href="https://github.com/Regal-Internet-Brothers">Regal-Internet-Brothers</a>.</p>
-
-          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
-        </aside>
-      </div>
     </div>
-
-  
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
   </body>
 </html>
