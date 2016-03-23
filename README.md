@@ -15,6 +15,20 @@ Once you've downloaded this repository properly, there's a few ways to handle mo
 
 To modify your module-path formally, edit your platform's configuration file in your [Monkey installation's "bin" folder](https://github.com/blitz-research/monkey/tree/develop/bin). You'll want to edit your 'MODPATH' variable, adding a **;** (Semi-colon), then the (*Parent*) directory housing these modules. For legacy support, you may also add the main "regal" directory, but for future support, please use the proper module prefix.
 
+When finished initially downloading and installing the modules, please follow the update section(s) below:
+
+### How to Update the Regal Modules
+Once you've finished cloning the modules, you'll probably need to update them. Modules are added as they're considered "stable", meaning the initial versions you receive may or may not work with eachother. They come as "snapshots" of their original forms, and should therefore be updated.
+
+To update your newly acquired modules, simply execute the "Update_Submodules_Pull.bat" batch file.
+
+Alternatively, you could write the following into the command-line:
+> git submodule foreach git pull origin master
+
+Effectively, you need to 'pull' the latest main-line versions of each module. This is crucial for interoperability, and will likely fix compatibility problems with other modules/dependencies.
+
+Some modules have separate branchs, which can be pulled at your discretion. Those separate branches/versions are not for regular use, and only exist for experimental development, legacy support, or other snapshots. If you aren't familiar with git source control, they aren't relevant to you anyway.
+
 ### Notes
 
 These modules support varying minimum versions of Monkey, and do not explicitly state support. Generally, if your version is an experimental version that's been out for around a week, and/or is the latest major version, it's supported. If your version is older than about a month old, then it's not supported directly, but will likely still work.
