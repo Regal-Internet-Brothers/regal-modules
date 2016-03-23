@@ -85,3 +85,6 @@
 [submodule "transport"]
 	path = transport
 	url = https://github.com/Regal-Internet-Brothers/transport.git
+[submodule "xinput"]
+	path = xinput
+	url = https://github.com/Regal-Internet-Brothers/xinput.git
