@@ -1,0 +1,15 @@
+add_remote_origin_gitlab.bat
+remove_remote_origin_gitlab.bat
+push_cleanup.bat
+regal.dir
+regal_filesystem.txt
+game
+engine
+_engine
+regalnet
+*.exe
+collision
+quadtree
+quaternion
+virtualos
+xinput
