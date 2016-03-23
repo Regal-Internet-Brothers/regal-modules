@@ -82,3 +82,6 @@
 [submodule "networking"]
 	path = networking
 	url = https://github.com/Regal-Internet-Brothers/networking
+[submodule "transport"]
+	path = transport
+	url = https://github.com/Regal-Internet-Brothers/transport.git
