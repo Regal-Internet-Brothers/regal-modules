@@ -9,6 +9,7 @@ _engine
 regalnet
 *.exe
 collision
+mojoinmojo2
 quadtree
 quaternion
 virtualos
