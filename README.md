@@ -1,7 +1,7 @@
 regal-modules
 =======
 
-This repository contains the *stable* public modules developed by [![](https://avatars2.githubusercontent.com/u/3187882?v=3&u=e8f3dc9f996b93a97617fe59eeea93fbb05bc01c&s=16) ImmutableOctet](https://github.com/ImmutableOctet) of  [![](https://avatars2.githubusercontent.com/u/7613882?v=3&s=16) The Regal Internet Brothers](https://github.com/Regal-Internet-Brothers) using the [Monkey programming language](https://github.com/blitz-research/monkey).
+This repository contains the *stable* public modules developed by [![](https://avatars2.githubusercontent.com/u/3187882?v=3&u=e8f3dc9f996b93a97617fe59eeea93fbb05bc01c&s=16) ImmutableOctet](https://github.com/ImmutableOctet) of  [The Regal Internet Brothers](https://github.com/Regal-Internet-Brothers) using the [Monkey programming language](https://github.com/blitz-research/monkey).
 
 Any of our public modules that are not found in this repository are considered experimental or otherwise separate. With that in mind, however, all of our modules belong under the same namespace. (***regal***)
 
