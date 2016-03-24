@@ -1,41 +1,44 @@
 regal-modules
 =======
 
-This repository contains the *stable* public modules written by The Regal Internet Brothers in [Monkey](https://github.com/blitz-research/monkey). Any of our public modules that are not found in this repository are considered experimental or otherwise separate. That being said, they belong in the same parent directory when used.
+This repository contains the *stable* public modules developed by [![](https://avatars2.githubusercontent.com/u/3187882?v=3&u=e8f3dc9f996b93a97617fe59eeea93fbb05bc01c&s=16) ImmutableOctet](https://github.com/ImmutableOctet) of [The Regal Internet Brothers ![](https://avatars2.githubusercontent.com/u/7613882?v=3&s=16)](https://github.com/Regal-Internet-Brothers) using the [Monkey programming language](https://github.com/blitz-research/monkey).
 
-All functionality is *'as-is'*, some things may not work as expected. That being said, I personally use many of these modules, so if a module makes it here, I've deemed it suitable for real-world use.
+Any of our public modules that are not found in this repository are considered experimental or otherwise separate. With that in mind, however, all of our modules belong under the same namespace. (***regal***)
+
+All functionality is *'as-is'*, some things may not work as expected. That being said, I personally use many of these modules, so if a module makes it here, we've deemed it suitable for real-world use. Bug reports should be made in the associated modules' repositories, unless otherwise related to this distribution.
 
 ## Installation
-On git versions 1.6.5 and newer, you may do the following from a command-line:
-> git clone --recursive https://github.com/Regal-Internet-Brothers/regal-modules.git
+This repository uses 'git submodules' for source distribution. Therefore, this repository should be cloned recursively, not directly downloaded.
+
+On git versions 1.6.5 and newer, you may do the following from your preferred shell:
+> git clone --recursive https://github.com/Regal-Internet-Brothers/regal-modules.git regal
 
 **The exact *URI* depends on your protocol preference, view the download-area above for details.** **(***HTTPS / SSH***)**
 
-Once you've downloaded this repository properly, there's a few ways to handle module placement. Either create a sub-folder in one of your global "modules" folders, or create a sub-folder for your project. **As of 10/27/2015, this sub-folder must be named "regal".** These modules now assume the parent-directory "**regal**". For legacy support, you can add the "regal" folder, then add that as a global module directory as well.
+Once you've downloaded this repository properly, place the newly created "regal" folder in your preferred Monkey "modules" folder.
 
-To modify your module-path formally, edit your platform's configuration file in your [Monkey installation's "bin" folder](https://github.com/blitz-research/monkey/tree/develop/bin). You'll want to edit your 'MODPATH' variable, adding a **;** (Semi-colon), then the (*Parent*) directory housing these modules. For legacy support, you may also add the main "regal" directory, but for future support, please use the proper module prefix.
+To modify your module-path formally, edit your platform's configuration file in your [Monkey installation's "bin" folder](https://github.com/blitz-research/monkey/tree/develop/bin). You'll want to edit your 'MODPATH' variable, adding a **;** (Semi-colon), then the (*Parent*) directory housing these modules.
 
-When finished initially downloading and installing the modules, please follow the update section(s) below:
+**As of 10/27/2015, this folder must be named "regal".** For legacy support, you can install the modules regularly, then add the "regal" folder as a "global modules-directory". Normal users should avoid doing this if possible. For future support, please use the proper module namespace.
 
-### How to Update the Regal Modules
-Once you've finished cloning the modules, you'll probably need to update them. Modules are added as they're considered "stable", meaning the initial versions you receive may or may not work with eachother. They come as "snapshots" of their original forms, and should therefore be updated.
+When installation is finished, please follow the update instructions below:
 
-To update your newly acquired modules, simply execute the "Update_Submodules_Pull.bat" batch file.
+## Module Updates
+Once you've finished the initial installation process, you will probably need to update your local module versions. Modules are added as they're considered "stable", with the distribution changing occasionally. This means the module versions you have downloaded may or may not work together properly. To solve this issue, it's usually in your best interest to update.
 
-Alternatively, you could write the following into the command-line:
-> git submodule foreach git pull origin master
+**To update your distribution and any newly added modules, run the "Update.bat" script.**
 
-Effectively, you need to 'pull' the latest main-line versions of each module. This is crucial for interoperability, and will likely fix compatibility problems with other modules/dependencies.
+Alternatively, you may update your existing module collection by running the "Update_Submodules_Pull.bat" script. Please note that this script does not guarantee proper stability and interoperability between existing modules. It's best to run the "Update" instead, although, this may be slower.
 
-Some modules have separate branchs, which can be pulled at your discretion. Those separate branches/versions are not for regular use, and only exist for experimental development, legacy support, or other snapshots. If you aren't familiar with git source control, they aren't relevant to you anyway.
+Some modules have separate branches, which can be pulled at your discretion. These separate branches/versions are not for regular use, and only exist for experimental development, legacy support, or other similar snapshots. It's best to stick to the main-line versions instead of relying on unfinished behavior or legacy support APIs.
 
 ### Notes
 
 These modules support varying minimum versions of Monkey, and do not explicitly state support. Generally, if your version is an experimental version that's been out for around a week, and/or is the latest major version, it's supported. If your version is older than about a month old, then it's not supported directly, but will likely still work.
 
-The current work-flow for the release of these modules is to create an experimental/trial repository, then eventually get the module stable enough to be adopted into this repository.
+The current work-flow for the release of these modules is to create an experimental repository, then test and use the module under isolated cases until it is considered stable enough to be adopted formally.
 
-I originally wrote a number of these modules for private/internal use. Some of my modules have not been released. These modules will NOT be required to use the modules in this repository. However, they may be optionally available as extensions to my public modules. When using them, place them in the same master directory ("regal").
+Many of these modules were originally developed for private/internal use. Some modules still remain unreleased. These private modules will never be required to use the modules in this repository. However, they may be optionally available as extensions to my public modules. With that in mind, though, those private modules may never be imported unless explicitly requested.
 
 ## Source Control Disclaimer
 
@@ -50,5 +53,7 @@ The modules available here were written with a specific design and work-flow. I 
 ### Other
 
 **If you see one of my modules using types you may not think existed in Monkey, [you might want to read this](https://github.com/Regal-Internet-Brothers/typetool/blob/master/README.md).**
-**Some of my older modules aren't hosted on GitHub, those modules could be in several places, but they're most likely on [BitBucket](https://bitbucket.org/ImmutableOctet).**
-**This repository was released on May 17th, 2014, and was released [alongside this forum post](http://www.monkey-x.com/Community/posts.php?topic=8506&post=93769).**
+
+Some of my older modules aren't hosted on GitHub, those modules could be hosted on several platforms, including BitBucket and Git Lab. These repositories act as backups and legacy code storage, and are therefore unrelated to these repositories.
+
+**This repository was first released on May 17th, 2014, [alongside this forum thread](http://www.monkey-x.com/Community/posts.php?topic=8506&post=93769).** Issues may be made in that thread, or on GitHub.
