@@ -9,6 +9,7 @@ _engine
 regalnet
 *.exe
 collision
+resources
 mojoinmojo2
 quadtree
 quaternion
